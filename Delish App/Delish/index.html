@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delish Restaurant</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER -->
+<header>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <span>Mon-Wed: 11a-9p</span>
+      <span class="dot"></span>
+      <span>Thurs-Sat: 11a-10p</span>
+    </div>
+    <div class="topbar-right">
+      <span>reservations@delish.com</span>
+      <span class="dot"></span>
+      <span>123 456 7899</span>
+      <span class="dot"></span>
+      <span>2926 Ridao Avenue Mar Berlin 251584</span>
+    </div>
+  </div>
+  <!-- Main Nav -->
+  <div class="main-nav">
+    <div class="nav-logo">
+      <img src="assets/logo.png" alt="Delish Logo" class="logo">
+      <span class="nav-title">DELISH</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">HOME</a>
+      <div class="dropdown">
+        <a href="#">PAGES <span class="arrow">&#9662;</span></a>
+        <div class="dropdown-content">
+          <a href="about.html">About</a>
+          <a href="chefs.html">Chefs</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="reservation.html">Reservation</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#">SHOP <span class="arrow">&#9662;</span></a>
+        <div class="dropdown-content">
+          <a href="shop.html">Shop</a>
+          <a href="shop-details.html">Shop Details</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#">BLOG <span class="arrow">&#9662;</span></a>
+        <div class="dropdown-content">
+          <a href="blog.html">Blog</a>
+          <a href="blog-details.html">Blog Details</a>
+        </div>
+      </div>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+    <a href="reservation.html" class="book-btn">
+      BOOK A TABLE <span class="book-arrow">&#8594;</span>
+    </a>
+  </div>
+</header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-slider">
+      <div class="slide active" style="background-image: url('assets/home-page.jpg')">
+        <div class="hero-content">
+          <h1>The Great <span>Flavored Food</span> Part of Us</h1>
+          <p>Enjoy the best dishes from our chefs.</p>
+          <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('assets/hero2.jpg')"></div>
+      <div class="slide" style="background-image: url('assets/hero3.jpg')"></div>
+    </div>
+    <div class="slider-controls">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about section-padding" id="about">
+    <div class="container about-container">
+      <img src="assets/about-us-banner.jpg" alt="About Us" class="about-img">
+      <div class="about-content">
+        <h2>Welcome to our <span>Luxury Restaurant</span></h2>
+        <p>We offer the best food experience with a blend of taste and hospitality. Explore our menu and enjoy a memorable meal with us.</p>
+        <a href="menu.html" class="btn btn-secondary">See Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services section-padding" id="services">
+    <div class="container">
+      <h2>Our Restaurant Service</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <img src="assets/wedding-service.jpg" alt="Service 1">
+          <h3>  WEDDING SERVICE</h3>
+          <p>The chocalate fondant which did not dissapoint it was rich and indulgent , with a gooey center that was pure bliss.</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/bucket-service.jpg" alt="Service 2">
+          <h3>BUFFET SERVICE</h3>
+          <p>Assertively myocardinate robust e-tailers for extensible human capital,dpropriately benchmark networks.</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/party-service.jpg" alt="Service 3">
+          <h3>PARTY SERVICE</h3>
+          <p>Assertively myocardinate robust e-tailers for extensible human capital.dpropriately benchmarknetworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU PREVIEW SECTION -->
+  <section class="menu section-padding" id="menu">
+    <div class="container">
+      <h2>Our Delicious Foods</h2>
+      <div class="menu-cards">
+        <div class="menu-card">
+          <img src="assets/Classic Caesar Salad.jpg" alt="Food 1">
+          <h3>Classic Caesar Salad</h3>
+          <p>Juicy grilled chicken with herbs.</p>
+          <span class="price">$15</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/Chicken Masala.jpg" alt="Food 2">
+          <h3>Chicken Masala</h3>
+          <p>Creamy pasta with parmesan.</p>
+          <span class="price">$12</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/Vegan Buddha Bowl.jpg" alt="Food 3">
+          <h3>Vegan Buddha Bowl</h3>
+          <p>Fresh veggies tossed in olive oil.</p>
+          <span class="price">$10</span>
+        </div>
+        <div class="menu-card">
+          <img src="assets/Chocolate Lava Cake.jpg" alt="Food 4">
+          <h3>Chocolate Lava Cake</h3>
+          <p>Assorted seafood with spices.</p>
+          <span class="price">$20</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS SECTION -->
+  <section class="stats">
+    <div class="container stats-container">
+      <div class="stat">
+        <span class="stat-number" data-target="15">0</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-target="20">0</span>
+        <span class="stat-label">Master Chefs</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-target="69">0</span>
+        <span class="stat-label">Dishes</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+      <h2>Our Food Gallery</h2>
+      <div class="gallery-grid">
+        <img src="assets/gallery01.jpg" alt="Gallery 1" class="gallery-img">
+        <img src="assets/gallery02.jpg" alt="Gallery 2" class="gallery-img">
+        <img src="assets/gallery03.jpg" alt="Gallery 3" class="gallery-img">
+        <img src="assets/gallery04.jpg" alt="Gallery 4" class="gallery-img">
+        <img src="assets/gallery05.jpg" alt="Gallery 4" class="gallery-img">
+      </div>
+    </div>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img">
+    </div>
+  </section>
+
+  <!-- FEEDBACK SECTION -->
+  <section class="feedback section-padding" id="feedback">
+    <div class="container">
+      <h2>Our Customer Feedbacks</h2>
+      <div class="feedback-cards">
+        <div class="feedback-card">
+          <p>"Amazing food and excellent service! Will come again."</p>
+          <span>- John Doe</span>
+        </div>
+        <div class="feedback-card">
+          <p>"The ambiance and taste are just perfect. Highly recommended."</p>
+          <span>- Jane Smith</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVATION SECTION -->
+  <section class="reservation section-padding" id="reservation">
+    <div class="container reservation-container">
+      <form class="reservation-form">
+        <h2>Make Reservation</h2>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit" class="btn btn-primary">Reserve</button>
+      </form>
+      <img src="assets/reserve.jpg" alt="Reservation" class="reservation-img">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-main">
+      <div class="footer-col footer-brand">
+        <img src="assets/logo.png" alt="Delish Logo" class="footer-logo">
+        <span class="footer-title">DELISH</span>
+        <p>1234, Restaurant St, South City<br>New York 0124</p>
+        <div class="footer-social">
+          <a href="#"><img src="assets/Group 74.png" alt="Facebook"></a>
+          <a href="#"><img src="assets/Group 73.png" alt="Instagram"></a>
+          <a href="#"><img src="assets/Group 71.png" alt="Twitter"></a>
+          <a href="#"><img src="assets/Group 72.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>LINKS</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="chefs.html">Meet our team</a></li>
+          <li><a href="#">Case stories</a></li>
+          <li><a href="blog.html">Latest News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>OTHER LINK</h4>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Creative Agency</a></li>
+          <li><a href="#">Digital Agency</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Digital Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>NEWSLETTER</h4>
+        <p class="newsletter-desc">Subscribe us & receive our offers and updates<br>your inbox directly</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email Address">
+          <button type="submit" class="newsletter-btn">
+            <span>&#9993;</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>All rights received 2024. Delish Restaurant</span>
+      <div>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
